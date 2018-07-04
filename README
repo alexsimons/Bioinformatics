@@ -1,0 +1,25 @@
+# Lab 4: BTree
+
+* Authors: Alex Simmons, Callum Young, Garrett Smith, Jeffrey Moore
+* Class CS321 
+* Semester: Summer 2018
+
+## Overview
+
+Takes dna Strings from gbk files and places them into a Btree, and then searched.
+
+## Cache Improvements
+
+All Tests ran using test3.gbk sequence length , and query7.
+
+Time without Cache GeneBankCreate:  86.4 seconds.
+Time with Cache size 100 GeneBankCreate:  43.4 seconds.
+Time with Cache size 500 GeneBankCreate:  26.5 seconds.
+
+Time without Cache GeneBankSearch:  12.6 seconds.
+Time without Cache size 100 GeneBankSearch:  12.5 seconds.
+Time without Cache size 500 GeneBankSearch:  12.4 seconds.
+
+Cache use is almost twice as fast with GeneBankCreate, and not much different for GeneBankSearch.
+## Sources
+Book Introduction to Algorithms Third Edition
